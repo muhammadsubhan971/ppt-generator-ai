@@ -7,7 +7,7 @@ import os
 from emotion import EnhancedPPTGenerator  
 
 
-genai.configure(api_key="AIzaSyC4RF-x0XD4Ccq-AAOHS9u4YxscJpZEiBc")  # Replace with your actual API key
+genai.configure(api_key="write your api-key")  # Replace with your actual API key
 
 
 def clean_text_lines(text):
@@ -390,4 +390,5 @@ if __name__ == "__main__":
         note(pdf_path, selected_template)
     else:
         print(f"❌ PDF file not found: {pdf_path}")
+
         print("Please update the pdf_path variable with the correct path to your PDF file.")
